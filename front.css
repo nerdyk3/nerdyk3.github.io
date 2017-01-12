@@ -43,7 +43,7 @@ element.style {
     overflow: auto;
 }
 @media only print and (max-width: 300px){
-    p{ display: none;background-color: blue;}
+    icon{ display: none;background-color: blue;}
 }
 .center { align-content: center;
     text-align: center;
