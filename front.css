@@ -5,7 +5,7 @@ top: 0%}
 h2 {
     color: bisque;text-align-last: left;font-family: sans-serif;text-decoration: underline;
 }
-h3{ font-family:fantasy;
+h3{ font-family:inherit;
     color: black;
     border-radius: 10px;
    font-size: 30px;
@@ -143,9 +143,9 @@ body {
 }
 .tab{
     text-align: center;
-    margin-left: 28%;
+    margin-left: 35%;
     margin-right: 0%;
-    margin-top: 0.25%;
+    margin-top: 0.5%;
     align-content: center;
     color: black;
     
