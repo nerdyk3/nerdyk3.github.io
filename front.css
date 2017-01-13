@@ -5,12 +5,33 @@ top: 0%}
 h2 {
     color: bisque;text-align-last: left;font-family: sans-serif;text-decoration: underline;
 }
-h3{
-    color: black;text-shadow:4px 1px 10px #C1C5C9 inset ; border: 5%; text-decoration-color: darkorange;font-size: 30px;
-    margin: auto;text-align: center;
+h3{ font-family:fantasy;
+    color: black;
+    border-radius: 10px;
+   font-size: 30px;
+   margin-top: 5%; 
+    box-shadow: 0px 1px 10px #00bfff inset;    
+    left: 40%;
+    margin-left: 42%;
+    margin-right: 40.2%;
+    width: 60%;
+ background-color: rgba(0,200,255,0.25);
+    text-align: center;
+}
+h4{ font-size: 25px;
+    color:darkturquoise;
+    font-family:calibril; 
+    text-align: center; 
+    border-radius: 5px;
+    margin-top: 5%; 
+    box-shadow: 0px 1px 10px #00bfff inset;    
+    left: 50%;
+    width: 22%;
+ background-color: rgba(0,200,255,0.15);
+    
 }
 *{ 
-    border: 1px  !IMPORTANT
+    border: 2px  !IMPORTANT
 }
 *{
     -webkit-box-sizing: border-box;
@@ -19,13 +40,17 @@ h3{
     box-sizing: border-box;
 }
 .row {
-    width: auto; display: flex; flex-wrap: wrap; align-items: center; text-align:center; text-align: center;
-}
+    width: auto; display: flex; flex-wrap: wrap; align-items: center; text-align:center; }
 .col-1{ 
 width: auto;
 }
 .col-2{
-    width: 20%; font-family: sans-serif; font-size-adjust: auto; background-color:darkgray;font-style: oblique; 
+    width:15%;
+    font-family: sans-serif;
+    font-size-adjust: auto; 
+    box-shadow: 0px 1px 10px #00bfff inset; 
+    border-radius: 5px;
+    background-color: rgba(0,200,255,0.25);
 }
 .col-3 {
     width: 20%; 
@@ -43,7 +68,7 @@ element.style {
     overflow: auto;
 }
 @media only print and (max-width: 300px){
-    icon{ display: none;background-color: blue;}
+    p{ display: none;background-color: blue;}
 }
 .center { align-content: center;
     text-align: center;
@@ -56,12 +81,14 @@ element.style {
     padding-bottom: 2%;
     padding-Left: 1%;
     padding-right: 1%;
-    box-shadow: 0px 1px 10px #C1C5C9 inset;
-    border-radius: 5px;
+    box-shadow: 0px 1px 10px #00bfff inset;
+    border-radius: 15px;
+   background-color: rgba(0,200,255,0.25);
     
 }
 .face{
     text-align: center;
+    top: 50%;
     
 }
 .background{
@@ -73,11 +100,12 @@ element.style {
     margin-top: 10px;
     margin-left: 43%;
     margin-right: 45.2%;
-    box-shadow: 0px 0px 10px #000001 inset;
-    border-radius: 1%;
+    box-shadow: 0px 1px 10px #00bfff inset;
+    border-radius: 5px;
+     background-color: rgba(0,200,211,0.45);
 }
 .icon{
-    border-image-width: auto; width: 10px;color: black; image-resolution: from-image; animation-duration: 10min ;
+    border-image-width: auto; width: 10px;color: darkturquoise; image-resolution: from-image; animation-duration: 10min ;
     display: inline-block;
 }
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
@@ -99,6 +127,13 @@ body {
     font-style: normal;
     line-height: 1.5;
     cursor: auto;
+    background-image: url("images/back.jpg");
+  
+   background-position: 30% 20%;
+
+    background-repeat: no-repeat;
+    margin-right: 10%;  background-attachment: fixed;
+    background-position: center; 
 }
 .img{
     box-sizing: border-box; 
@@ -110,18 +145,32 @@ body {
     text-align: center;
     margin-left: 28%;
     margin-right: 0%;
+    margin-top: 0.25%;
+    align-content: center;
+    color: black;
     
     
+}
+.tab1{
+    text-align: center;
+    margin-left: 31%;
+    margin-right: 0%;
+margin-top: 0.50%;
+   align-content: center; 
+}
+.tab2{
+    text-align: center;
+    margin-left: 43%;
+    margin-right: 0%;
+    margin-top: 0.50%;
+    align-content: center;
 }
 *, *::before, *::after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-glyph .glyph-icon {
-    padding: 1px;
-    display: block;
-    font-family: "Flaticon";
-    font-size: 64px;
-    line-height: 1;
+@font-face{
+font-family:calibril;
+    src:url(font/calibril.ttf)
 }
