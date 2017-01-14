@@ -16,7 +16,7 @@ h3{ font-family:inherit;
     margin-right: 40.2%;
     width: 60%;
  background-color: rgba(0,200,255,0.25);
-    text-align: center;
+    text-align: center;text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.3);
 }
 h4{ font-size: 25px;
     color:darkturquoise;
@@ -67,8 +67,18 @@ element.style {
     height: 100%;
     overflow: auto;
 }
-@media only print and (max-width: 300px){
-    p{ display: none;background-color: blue;}
+@media only screen and (max-width: 1000px){
+    h3{
+        font-size: 8px;
+    }
+    h4{
+        font-size: 6px;
+    }
+    
+    icon{
+        width: 8px;
+        image-resolution: from-image;
+    }
 }
 .center { align-content: center;
     text-align: center;
@@ -105,7 +115,7 @@ element.style {
      background-color: rgba(0,200,211,0.45);
 }
 .icon{
-    border-image-width: auto; width: 10px;color: darkturquoise; image-resolution: from-image; animation-duration: 10min ;
+    border-image-width: auto; width: 10px;color: darkturquoise; image-resolution: from-image; animation-duration: 0.3sec ;
     display: inline-block;
 }
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
@@ -153,7 +163,7 @@ body {
 }
 .tab1{
     text-align: center;
-    margin-left: 31%;
+    margin-left: 28%;
     margin-right: 0%;
 margin-top: 0.50%;
    align-content: center; 
