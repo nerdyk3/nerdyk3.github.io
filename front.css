@@ -45,9 +45,9 @@ a {
     line-height: inherit;
 }
 .col-2{
-    width:15%;
+    width:17%;
     font-family: sans-serif;
-    font-size-adjust: auto; 
+    font-size: 22px;
     box-shadow: 0px 1px 10px #00bfff inset; 
     border-radius: 5px;
     background-color: rgba(0,200,255,0.25);
@@ -99,7 +99,7 @@ element.style {
     margin-top: 10px;
     margin-left: 42%;
     margin-right: 42%;
-   
+   margin-bottom: 5%;   
 }
 .icon{
     border-image-width: auto; width: 10px;color: darkturquoise; image-resolution: from-image; animation-duration: 0.3sec ;
@@ -129,7 +129,7 @@ body {
     margin-right: 10%;  background-attachment: fixed;
     background-position: center; 
 }
-.img{
+.img{margin-top: 5%;
     box-sizing: border-box; 
     border-bottom-style: ridge;
     align-content: center;
@@ -138,7 +138,7 @@ body {
 
 .tab{
     text-align: center;
-    margin-left: 35%;
+    margin-left: 32%;
     margin-right: 0%;
     margin-top: 0.5%;
     align-content: center;
