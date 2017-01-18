@@ -13,11 +13,10 @@ h3{ font-family:inherit;
    margin-top: 5%; 
     box-shadow: 0px 1px 10px #00bfff inset;    
     left: 20%;
-    
     margin-right: 30.2%;
     width: 75%;
  background-color: rgba(0,200,255,0.25);
-    text-align: center;text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 h4{ font-size: 10px;
     color:darkturquoise;
