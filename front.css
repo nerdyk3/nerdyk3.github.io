@@ -33,12 +33,7 @@ h4{ font-size: 25px;
 *{ 
     border: 2px  !IMPORTANT
 }
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
+
 .row {
     width: auto; display: flex; flex-wrap: wrap; align-items: center; text-align:center; }
 .col-1{ 
@@ -104,9 +99,7 @@ element.style {
     margin-top: 10px;
     margin-left: 42%;
     margin-right: 42%;
-    box-shadow: 0px 1px 10px #00bfff inset;
-    border-radius: 5px;
-     background-color: rgba(0,200,211,0.45);
+   
 }
 .icon{
     border-image-width: auto; width: 10px;color: darkturquoise; image-resolution: from-image; animation-duration: 0.3sec ;
@@ -129,12 +122,9 @@ body {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    line-height: 1.5;
+    line-height: 1;
     cursor: auto;
     background-image: url("images/back.jpg");
-  
-   
-
     background-repeat: no-repeat;
     margin-right: 10%;  background-attachment: fixed;
     background-position: center; 
