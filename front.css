@@ -30,20 +30,17 @@ h4{ font-size: 25px;
  background-color: rgba(0,200,255,0.15);
     
 }
-h5{
-	font-size: 20px;
-     font-family:sans-serif;
-  text-align: center;
-font-style:oblique;
-border-radius: 5px;
-    margin-top: 5%; 
-    box-shadow: 0px 1px 10px #00bfff inset; 
-    margin-left: 1%;
-    margin-right:1%;
+h4{ font-size: 20px;
+    color:#00CCFF;
+    font-family:calibril; 
+    text-align: center; 
     border-radius: 5px;
-    width: 8%;
+    margin-top: 5%; 
+    box-shadow: 0px 1px 10px #00bfff inset;    
+    left: 50%;
+    width: 22%;
  background-color: rgba(0,200,255,0.15);
-    text-shadow: 4px 5px 0px rgba (0,0,0,0.8);
+    
 }
 *{ 
     border: 2px  !IMPORTANT
