@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        24response.com
+        </title>
+        <link href="bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h2 class="h2-24slider text-center"><strong>24response.com</strong> in association with <strong>PLACIO</strong></h2>
+    	
+         <!-- how it is work menu -->
+        <div class="mySlides animate-left">
+   
+     <h1 class="text-center"><strong>HOW IT WORKS</strong></h1>  <hr>
+        <h5 class="font-color text-center"> 24 Response is india's 1st On Demand Safety Service,which provides a Quick Response and Immediate Assistance to its customers,whenever they are faced with any real <br> life situation involving Personal Safety. Our Mobile App automatically tracks your location and connects you to the 24 Response Command & Control Center, while<br> simultaneously sending out a system alert with your location coordinates to the nearest 24 Response Immediate Assistnce Team. 
+            
+        </h5>
+         
+<div class="container-fluid bg-3 text-center">    
+  <br>
+  <div class="row">
+    <div class="col-md-2 col-md-6">
+      <img src="img/mob1.png" id="rcorners1"  class="img-responsive" alt="Image">
+        <h1 id="rcorners3" class="img-responsiv number" >1</h1><br><br><br><br><br><br><br><br><br>
+         <h5 class="center1"><strong>Mobile App</strong></h5>
+        <h5 class="center1 font-color"><strong>For Instant HelpMe Response</strong></h5>
+        </div>
+    <div class="col-md-2 col-md-6"> 
+      
+      <img src="img/asssistant.png" id="rcorners1" class="img-responsive"  alt="Image">
+        <h1 id="rcorners2" class="img-responsive number" >2</h1>
+
+      <h5 class="center1"><strong>24X7 On Call</strong></h5>
+        <h5 class="center1 font-color"><strong>Assistance</strong></h5>
+    </div>
+    <div class="col-md-2 col-md-6"> 
+      
+      <img src="img/bike.png" id="rcorners1" class="img-responsive"  alt="Image">
+        <h1 id="rcorners3" class="img-responsive number" >3</h1><br><br><br><br><br><br><br><br><br>
+    <h5 class="center1"><strong>On Ground</strong></h5>
+        <h5 class="center1 font-color"><strong>Immediate Assistance</strong></h5>
+      </div>
+    <div class="col-md-2 col-md-6">
+      
+      <img src="img/help.png" id="rcorners1" class="img-responsive" alt="Image">
+        <h1 id="rcorners2" class="img-responsive number" >4</h1>
+        <h5 class="center1"><strong>Coordination</strong></h5>
+        <h5 class="center1 font-color"><strong>With Emergency Service Providers</strong></h5>
+    </div>
+  </div>
+        </div><hr>
+            </div>
+         <!-- when we help menu -->
+        <div class="mySlides animate-left">
+    <h1 class="h2-24slider text-center"><strong>WHEN WE HELP</strong></h1>  <hr class="small">
+        <h5 class="font-color text-center"> While at the back of our minds,we all have the fear of getting into a vulnerable situation,not many of us are prepared to deal with it when it hits us.At 24 Response,we have<br> through of all such unforeseen situations and planned your safety around it.Enumerated below are the various safety situations where you may reach out to us for immediate<br>assistance.
+         </h5>   <br> 
+     <div class="row">
+        <div class="col-sm-3 col-md-6">
+            <h3 class="content"><strong>Safety at Home</strong></h3>
+            <h5 class="font-color content">Minor fire, Gas Leakage, Intrusion,Loss of Keys,Any Distress<br>Situation.</h5>
+            <img src="img/home.png"  id="rcorners4">
+        </div>
+            <div class="col-sm-9 col-md-6">
+        <h3 class="content"><strong>Medical Emergencies</strong></h3>
+            <h5 class="font-color content">Ambulance Arrangemnets, Injuries, Sudden Sickness, Emergency<br>Medical at Odd Hours.</h5>
+                              <img src="img/medi.png"  id="rcorners5" style="width:8.5%">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 col-md-6">
+        <h3><strong class="content">On road Assistance</strong></h3>
+            <h5 class="font-color content">Road Accident, Car Breakdown, Loss of Car Keys, Tyre Puncture<br>Key Retrieval.</h5>
+              <img src="img/road.png"  id="rcorners4" style="width:8.5%">
+        </div>
+            <div class="col-sm-9 col-md-6" >
+        <h3 class="content"><strong>Personal Safety</strong></h3>
+            <h5 class="font-color content">Stalking/Being Followed, Imminent Physical Threats, Road Rage,<br>Feeling Unsafe.</h5>
+                              <img src="img/man.png"  id="rcorners5" style="width:8.5%">
+
+        </div>
+    </div><br><br><br><hr>
+        </div>
+     <!-- script of sliding -->   
+ <style>
+.mySlides {display:none;}
+
+</style> 
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+
+        
+        </body>
+</html>

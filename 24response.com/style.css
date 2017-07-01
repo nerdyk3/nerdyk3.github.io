@@ -1,0 +1,89 @@
+.font-color{
+    font-family: sans-serif;
+    color: #787b7f;
+    font-weight: 400px;
+}
+.strong{
+    font-weight: 600px;
+}
+hr{
+    width: 180px;
+    height: 1px;
+    color: black;
+}
+#rcorners1 {
+    border-radius: 100px;
+    padding: 10px; 
+    width: 155px;
+    height: 155px;    
+    box-shadow: 0px 1px 10px #787b7f inset;
+    margin-left: 100%;
+}
+.center1{
+    padding-left: 200%;
+    margin-left: -290px;
+    margin-right: -250px 
+}
+.service{
+    
+}
+#rcorners2 {
+    border-radius: 100px;
+    margin-top: -30px; 
+    width: 40px;
+    height: 40px;    
+    margin-left: 100%;
+    
+    background: #1b2149;
+}
+#rcorners3 {
+    border-radius: 100px;
+    margin-top: -167px; 
+    width: 40px;
+    height: 40px;    
+    margin-left: 100%;
+    background: #1b2149;
+}
+.number{
+    color: floralwhite;
+}
+#rcorners4 {
+    border-radius: 100px;
+    margin-top: -70px; 
+    width: 50xpx;
+    height: 50px;    
+    margin-left: 10%;
+    border: black;
+    background: white;
+    box-shadow: 0px 0px 1px #787b7f inset;
+   
+}
+#rcorners5 {
+    border-radius: 100px;
+    margin-top: -57px; 
+    width: 50px;
+    height: 50px;    
+    margin-left: 10%;
+    border: black;
+    background: white;
+    box-shadow: 0px 0px 1px #787b7f inset;
+    
+}
+.content{
+    margin-left: 25%;
+    margin-bottom: -1%
+}
+
+.animate-left{
+    position:relative;
+    animation:animateleft 0.4s}
+@keyframes animateleft{
+    from{left:-300px;opacity:0}
+    to{left:0;opacity:1}}
+.animate-opacity{
+    animation:opac 0.8s
+}
+@keyframes opac{
+    from{opacity:0} 
+    to{opacity:1}
+}
