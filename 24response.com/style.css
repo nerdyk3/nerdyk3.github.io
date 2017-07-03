@@ -78,8 +78,8 @@ hr{
     position:relative;
     animation:animateleft 0.4s}
 @keyframes animateleft{
-    from{left:-300px;opacity:0}
-    to{left:0;opacity:1}}
+    from{right:-300px;opacity:0}
+    to{right:0;opacity:1}}
 .animate-opacity{
     animation:opac 0.8s
 }
