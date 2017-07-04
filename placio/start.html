@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        placio
+        </title>
+          <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+       
+    </head>
+    <body>
+         <!--slide1-->
+        <div class="mySlides content imgsize animate-right">
+   <img src="img/slide1.jpg" class="img-responsive" alt="Image">
+        </div>
+         <!-- slide2 -->
+        <div class="mySlides imgsize content animate-right">
+   <img src="img/slide2.jpg" class="img-responsive" alt="Image">
+        </div>
+     <!-- script of sliding -->   
+ <style>
+.mySlides {display:none;}
+</style> 
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000); // Change image every 6 seconds
+}
+</script>
+
+        
+        </body>
+</html>
