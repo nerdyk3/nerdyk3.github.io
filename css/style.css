@@ -190,14 +190,12 @@ background text
 ------------------------------------
  */
 .cont_ba_opcitiy {
-  position: relative;
+
   background-color: rgba(18, 57, 152, 0.6);
   width: 320px;
-  height: 860px;
-  border-radius:3.5px ;
-margin-top: -33%;
-    margin-left: 80%;
-
+  height: 100%;
+  margin-left: 80%;
+  margin-top: -32.4%;
 }
 
 .btn_sign_up { 
@@ -205,6 +203,7 @@ background-color: #ef5350;
   border: none;
   padding: 10px;
 width: 200px;
+    
 border-radius:3px;
 box-shadow: 1px 5px 20px -5px rgba(0,0,0,0.4);
   color: #fff;
